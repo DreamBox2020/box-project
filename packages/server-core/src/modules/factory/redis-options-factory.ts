@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import {
   RedisModuleOptions,
   RedisOptionsFactory as IRedisOptionsFactory,
-} from '../redis';
+} from '@kazura/nestjs-redis';
 
 @Injectable()
 export class RedisOptionsFactory implements IRedisOptionsFactory {

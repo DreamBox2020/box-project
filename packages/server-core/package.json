@@ -1,8 +1,7 @@
 {
-  "name": "server-core",
+  "name": "@box-project/server-core",
   "version": "0.0.1",
   "description": "",
-  "author": "",
   "private": true,
   "scripts": {
     "build": "nest build",
@@ -20,6 +19,9 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@kazura/googleapis": "^0.0.4",
+    "@kazura/nestjs-redis": "^0.0.2",
+    "@kazura/nestjs-winston": "^0.0.2",
     "@nestjs/common": "^10.3.7",
     "@nestjs/config": "^3.2.2",
     "@nestjs/core": "^10.3.7",
@@ -31,6 +33,8 @@
     "class-validator": "^0.14.1",
     "cookie-parser": "^1.4.6",
     "dayjs": "^1.11.10",
+    "fast-safe-stringify": "^2.1.1",
+    "https-proxy-agent": "^7.0.2",
     "ioredis": "^5.3.2",
     "mysql2": "^3.9.4",
     "reflect-metadata": "^0.2.1",

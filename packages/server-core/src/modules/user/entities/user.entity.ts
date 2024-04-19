@@ -9,7 +9,7 @@ export class UserEntity extends BaseEntity {
     name: 'user_name',
     type: 'varchar',
     nullable: true,
-    length: 50,
+    length: 64,
   })
   username?: string;
 
@@ -17,7 +17,7 @@ export class UserEntity extends BaseEntity {
     name: 'nick_name',
     type: 'varchar',
     nullable: true,
-    length: 50,
+    length: 64,
   })
   nikename?: string;
 
@@ -41,7 +41,7 @@ export class UserEntity extends BaseEntity {
     name: 'phone',
     type: 'varchar',
     nullable: true,
-    length: 20,
+    length: 16,
   })
   phone?: string;
 
@@ -49,7 +49,7 @@ export class UserEntity extends BaseEntity {
     name: 'email',
     type: 'varchar',
     nullable: true,
-    length: 50,
+    length: 64,
   })
   email?: string;
 
@@ -57,7 +57,7 @@ export class UserEntity extends BaseEntity {
     name: 'avatar',
     type: 'varchar',
     nullable: true,
-    length: 200,
+    length: 255,
   })
   avatar?: string;
 

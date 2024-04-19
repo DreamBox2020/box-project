@@ -4,6 +4,8 @@ import { RoleEntity } from './entities/role.entity';
 import { PolicyEntity } from './entities/policy.entity';
 import { UserRoleEntity } from './entities/user-role.entity';
 import { RolePolicyEntity } from './entities/role-policy.entity';
+import { PermissionService } from './permission.service';
+import { PermissionController } from './permission.controller';
 
 @Module({
   imports: [
@@ -14,8 +16,8 @@ import { RolePolicyEntity } from './entities/role-policy.entity';
       RolePolicyEntity,
     ]),
   ],
-  providers: [],
-  controllers: [],
-  exports: [TypeOrmModule],
+  providers: [PermissionService],
+  controllers: [PermissionController],
+  exports: [TypeOrmModule, PermissionService],
 })
 export class PermissionModule {}

@@ -3,6 +3,7 @@ import * as winston from 'winston';
 import { resolve } from 'path';
 import { utilities } from 'src/utils/winston.utilities';
 import 'winston-daily-rotate-file';
+import { WinstonService } from '@kazura/nestjs-winston';
 
 const isDevMode = false;
 
@@ -41,3 +42,5 @@ export const logger = createLogger({
   ],
   exitOnError: false,
 });
+
+export const winstonService = new WinstonService(logger);
