@@ -32,7 +32,7 @@ import { NestLogger } from 'src/utils/nest-logger';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: [resolve(process.cwd(), `env/.env.defaults`)],
+      envFilePath: [resolve(process.cwd(), `env/.env.local`)],
       isGlobal: true,
       expandVariables: true,
     }),

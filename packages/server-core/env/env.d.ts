@@ -18,6 +18,10 @@ declare namespace NodeJS {
     REDIS_KEY_PREFIX: string;
     REIDS_CONNECT_TIMEOUT: string;
 
+    GOOGLE_OAUTH2_CLIENT_ID: string;
+    GOOGLE_OAUTH2_CLIENT_SECRET: string;
+    GOOGLE_RECAPTCHA_SECRET: string;
+
     HTTPS_PROXY?: string;
   }
 }
