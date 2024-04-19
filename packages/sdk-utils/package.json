@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.22.11",
-    "@kazura/web-util": "^0.1.3",
+    "@kazura/web-util": "^1.2.2",
     "axios": "^1.5.0",
     "moment": "^2.29.4"
   },
