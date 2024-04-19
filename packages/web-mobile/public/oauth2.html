@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oauth2</title>
+  </head>
+  <body>
+    <h1 id="title">loading...</h1>
+  </body>
+</html>
+
+<script>
+  const params = new URLSearchParams(window.location.search)
+  const state = params.get('state')
+  const code = params.get('code')
+  const redirectUri = location.origin + location.pathname
+
+  console.log(
+    'oauth2.html -> params: ',
+    `state: ${state}, code: ${code}, redirectUri: ${redirectUri}`
+  )
+
+  if (state && code) {
+    window.location.replace(
+      'index.html/#/login?state=' +
+        state +
+        '&code=' +
+        code +
+        '&redirectUri=' +
+        redirectUri
+    )
+  } else {
+    document.getElementById('title').innerHTML = 'Error: no state or code'
+  }
+</script>
