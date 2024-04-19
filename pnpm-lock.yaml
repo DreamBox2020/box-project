@@ -219,8 +219,8 @@ importers:
         specifier: ^7.22.11
         version: 7.24.4
       '@kazura/web-util':
-        specifier: ^0.1.3
-        version: 0.1.6(file-saver@2.0.5)(uuid@9.0.1)
+        specifier: ^1.2.2
+        version: 1.2.2
       axios:
         specifier: ^1.5.0
         version: 1.6.8
@@ -3035,20 +3035,6 @@ packages:
       '@types/crypto-js': 4.2.2
       crypto-js: 4.2.0
       jsencrypt: 3.3.2
-    dev: false
-
-  /@kazura/web-util@0.1.6(file-saver@2.0.5)(uuid@9.0.1):
-    resolution: {integrity: sha512-8BIj/pvRrHDvpbR0ifRtDq9DqSv8V4bjIOgjS8YqQq2DFzdHGuHG/287vRIr+gXVSqcPFh8ZYjcxeAy9ySy0fw==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      file-saver: ^2.0.5
-      uuid: ^9.0.0
-    dependencies:
-      '@babel/runtime': 7.24.4
-      '@types/file-saver': 2.0.7
-      '@types/uuid': 9.0.8
-      file-saver: 2.0.5
-      uuid: 9.0.1
     dev: false
 
   /@kazura/web-util@1.2.2:
