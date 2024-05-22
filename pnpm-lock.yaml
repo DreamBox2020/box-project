@@ -219,8 +219,8 @@ importers:
         specifier: ^7.24.4
         version: 7.24.4
       '@kazura/web-util':
-        specifier: ^1.2.2
-        version: 1.2.2
+        specifier: ^2.0.0
+        version: 2.0.0
       axios:
         specifier: ^1.6.8
         version: 1.6.8
@@ -446,8 +446,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       '@kazura/web-util':
-        specifier: ^1.2.2
-        version: 1.2.2
+        specifier: ^2.0.0
+        version: 2.0.0
       ahooks:
         specifier: ^3.7.11
         version: 3.7.11(react@18.2.0)
@@ -534,8 +534,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       '@kazura/web-util':
-        specifier: ^1.2.2
-        version: 1.2.2
+        specifier: ^2.0.0
+        version: 2.0.0
       ahooks:
         specifier: ^3.7.11
         version: 3.7.11(react@18.2.0)
@@ -3128,6 +3128,11 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
+  /@kazura/common@0.0.1:
+    resolution: {integrity: sha512-cwHicbE1lr4bV+0o3f+wWbAK1QXDet7ZKM0L/c4A0rEk1gTf2iUd2obszfP8HVRHk6e/HTCmJBXwtaDRuYIXHQ==}
+    engines: {node: '>=20.13.1'}
+    dev: false
+
   /@kazura/eslint-config-react-app@7.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(typescript@5.4.5):
     resolution: {integrity: sha512-pkaMHjgsgoEClCnUEEw7UCmSbpurdiJpdSFlaHLoxW7WjyxZffwal7XM6dCO637xQzw7c3Y38SbsCTx5PhVhXg==}
     engines: {node: '>=14.0.0'}
@@ -3219,14 +3224,15 @@ packages:
       jsencrypt: 3.3.2
     dev: false
 
-  /@kazura/web-util@1.2.2:
-    resolution: {integrity: sha512-EXAeFLomRooSoW4Pz3Tj2frYNN9Cz1oHlsf30HlDv/Gwwhd0efmf9n52SgYysRU01g4q8P+mPJgWc2Tjg3pLjg==}
-    engines: {node: '>=20.5.0'}
+  /@kazura/web-util@2.0.0:
+    resolution: {integrity: sha512-aWPK7Vkd337HN6/ytbuNR6TiQU4UejW4zQmJ0oSBISX536i5oaHBesGngfU+y3mCbNFXtn6TysYAJQt6Dc+N0Q==}
+    engines: {node: '>=20.13.1'}
     dependencies:
+      '@kazura/common': 0.0.1
       '@types/file-saver': 2.0.7
       '@types/uuid': 9.0.8
       copy-to-clipboard: 3.3.3
-      dayjs: 1.11.10
+      dayjs: 1.11.11
       file-saver: 2.0.5
       uuid: 9.0.1
     dev: false
@@ -5586,6 +5592,10 @@ packages:
 
   /dayjs@1.11.10:
     resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
+    dev: false
+
+  /dayjs@1.11.11:
+    resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
     dev: false
 
   /debug@2.6.9:
