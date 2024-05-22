@@ -23,7 +23,7 @@
     "@kazura/react-mobx": "^0.0.8",
     "@kazura/react-toolkit": "^0.1.1",
     "@kazura/web-crypto": "^3.0.2",
-    "@kazura/web-util": "^1.2.2",
+    "@kazura/web-util": "^2.0.0",
     "ahooks": "^3.7.11",
     "antd": "^5.16.2",
     "mobx": "^6.12.3",
