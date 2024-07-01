@@ -21,30 +21,30 @@
     "@emotion/styled": "^11.11.5",
     "@kazura/react-mobx": "^0.0.8",
     "@kazura/react-toolkit": "^0.1.1",
-    "@kazura/web-crypto": "^3.0.2",
-    "@kazura/web-util": "^1.2.2",
-    "ahooks": "^3.7.11",
-    "antd-mobile": "^5.35.0",
+    "@kazura/web-crypto": "^3.1.1",
+    "@kazura/web-util": "^1.2.5",
+    "ahooks": "^3.8.0",
+    "antd-mobile": "^5.37.0",
     "antd-mobile-icons": "^0.3.0",
-    "mobx": "^6.12.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.22.3",
-    "react-router-dom": "^6.22.3"
+    "mobx": "^6.12.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.24.0",
+    "react-router-dom": "^6.24.0"
   },
   "devDependencies": {
     "@kazura/eslint-config-react-app": "^7.0.1",
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "@vitejs/plugin-react": "^4.2.1",
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.5.3",
     "vite": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1"
   },
   "engines": {
-    "node": ">=20.12.2"
+    "node": ">=20.15.0"
   }
 }
